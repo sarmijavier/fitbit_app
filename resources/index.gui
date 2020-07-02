@@ -1,0 +1,69 @@
+<svg viewport-fill="#000000">
+  <use id="wifi"  href="#combo-button-upper-left" fill="fb-cyan">
+    <set href="combo-button-icon"  attributeName="href" to="images/wifi.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="wifi.png"/>
+  </use>
+  <use id="nowifi" href="#combo-button-upper-right" fill="fb-cyan">
+    <set href="combo-button-icon"  attributeName="href" to="images/nowifi.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="nowifi.png"/>
+  </use>
+  <use id="sinchronization" x="7%" href="#combo-button-upper-right" fill="fb-cyan">
+    <set href="combo-button-icon"  attributeName="href" to="images/sinchronization.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="sinchronization.png"/>
+  </use>
+   <use id="nosinchronization"   x="71%" href="#combo-button-upper-left" fill="fb-cyan">
+    <set href="combo-button-icon"  attributeName="href" to="images/nosinchronization.png"/>
+    <set href="combo-button-icon-press" attributeName="href" to="nosinchronization.png"/>
+  </use>
+  
+  
+    <text id="myClock" font-size="80" width="80%" height="80%"  x="50%"
+          y="40%+15" fill="white" text-length="128" text-anchor="middle">00:00</text>
+  
+    <line x1="10" y1="128" x2="95%" y2="128" fill="white" stroke-width="1" />
+
+    <text id="date" font-size="30" width="100%" height="100%"  x="50%"
+          y="155" fill="white"  text-length="64" text-anchor="middle"/>
+  
+    <line x1="10" y1="160" x2="95%" y2="160" fill="white" stroke-width="1" />
+
+  
+  
+  <text id="countdown" x="50%" y="16" fill="white" text-anchor="middle" font-size="20"  text-length="32">5: 00</text>
+ 
+  
+    <use id="stepsImage" href="#square-button-icon" x="4"  width="25%" height="25%" y="166">
+      <set href="#image" attributeName="href" to="images/steps.png" />
+    </use>
+    <text id="steps" font-size="15" width="100%" height="100%"  x="23"
+          y="242" fill="white"  text-length="64"/>
+      <arc x="15" y="168" width="60" height="60" fill="white" 
+    arc-width="1" start-angle="0" sweep-angle="360" />
+  
+  
+    <use id="caloriesImage" href="#square-button-icon" x="73"  width="25%" height="25%" y="166">
+      <set href="#image" attributeName="href" to="images/calories.png" />
+    </use>
+        <text id="calories" font-size="15" width="100%" height="100%"  x="95"
+          y="242" fill="white"  text-length="64" />
+    <arc x="83" y="168" width="60" height="60" fill="white" 
+    arc-width="1" start-angle="0" sweep-angle="360" />
+  
+  
+    <use id="heartImage" href="#square-button-icon" x="142"  width="25%" height="25%" y="166">
+      <set href="#image" attributeName="href" to="images/heartrate.png" />
+    </use>
+        <text id="heartRate" font-size="15" width="100%" height="100%"  x="175"
+          y="242" fill="white"  text-length="64" />
+    <arc x="153" y="168" width="60" height="60" fill="white" 
+    arc-width="1" start-angle="0" sweep-angle="360" />
+  
+
+  
+</svg>
+
+  
+
+
+
+
